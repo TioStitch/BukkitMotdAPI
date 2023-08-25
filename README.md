@@ -39,4 +39,4 @@ Passo a Passo:
 Estados:
 - STATIC
 - UNCOLOR
-- ANIMATED (Não funcional)
+- ANIMATED.
