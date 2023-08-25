@@ -16,6 +16,16 @@ Método organizado:
 
 ![Screenshot](https://imgur.com/HdQtSnX.png)
 
+Método animado:
+- Você atualmente só pode usar o método organizado
+- para criar animações do scoreboard.
+
+Passo a Passo:
+- Defina duas listas em String
+- Inicie o objeto e sete as animatedLine.
+
+![Screenshot](https://imgur.com/TFT4rGH.png)
+
 Estados:
 - STATIC
 - UNCOLOR
