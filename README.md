@@ -17,14 +17,24 @@ Método organizado:
 ![Screenshot](https://imgur.com/HdQtSnX.png)
 
 Método animado:
-- Você atualmente só pode usar o método organizado
-- para criar animações do scoreboard.
+- Você atualmente só pode usar o método
+- animado para criar animações do motd
+- de forma simples, mas acho interessante.
+
+- Um outro porém que talvez seja ruim:
+- as linhas são independentes.
 
 Passo a Passo:
 - Defina duas listas em String
 - Inicie o objeto e sete as animatedLine.
 
+- Método Organizado
+
 ![Screenshot](https://imgur.com/TFT4rGH.png)
+
+- Método Desorganizado:
+
+![Screenshot](https://imgur.com/0x1c4lM.png)
 
 Estados:
 - STATIC
