@@ -14,7 +14,7 @@ Método organizado:
 - Você cria um objeto (MOTD) e tem a permissão de setar as linhas
 - tanto a linha 1 quanto a linha 2, o estado na criação.
 
-- [Insert Image](https://imgur.com/HdQtSnX.png)
+![Screenshot](https://imgur.com/HdQtSnX.png)
 
 Estados:
 - STATIC
