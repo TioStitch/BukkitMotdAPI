@@ -1,4 +1,7 @@
 # BukkitMotdAPI
+
+Antes de ler as informações do plugin, lembre-se que é obrigatório ter ele no seu servidor e não ter outros plugins de MOTD, ele é um plugin que será predefinido com base no que será aplicado em sua API, em breve ele será mais fácil de manipular.
+
 Uma API para criação de motds customizados para a tela de boas-vindas do seu servidor, tudo isto de forma fácil e rápida!
 Nossos MOTDs podem ser chamados de várias formas, isto incluí método organizado e desorganizado, gosto de chamar assim.
 
