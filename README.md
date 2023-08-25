@@ -8,7 +8,7 @@ Nossos MOTDs podem ser chamados de várias formas, isto incluí método organiza
 Método desorganizado:
 - Você inicia seu objeto (MOTD) já com as linhas e o estado dele.
 
-- [Insert Image](https://imgur.com/qw0p6Cv.png)
+- [Screenshot](https://imgur.com/qw0p6Cv.png)
 
 Método organizado:
 - Você cria um objeto (MOTD) e tem a permissão de setar as linhas
