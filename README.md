@@ -1,42 +1,33 @@
 # BukkitMotdAPI
 
-Antes de ler as informações do plugin, lembre-se que é obrigatório ter ele no seu servidor e não ter outros plugins de MOTD, ele é um plugin que será predefinido com base no que será aplicado em sua API, em breve ele será mais fácil de manipular.
+Com a recodificação total do BukkitMotdAPI você pode criar seus MOTDs de forma otimizada e organizada agora,
+darei alguns passos a baixo de como realizar isto, pode parecer meio irrelevante mas é muito útil.
 
-Uma API para criação de motds customizados para a tela de boas-vindas do seu servidor, tudo isto de forma fácil e rápida!
-Nossos MOTDs podem ser chamados de várias formas, isto incluí método organizado e desorganizado, gosto de chamar assim.
+Inicialização do Objeto:
 
-Método desorganizado:
-- Você inicia seu objeto (MOTD) já com as linhas e o estado dele.
+argumento 1: Linha 1.
+argumento 2: Linha 2.
 
-![Screenshot](https://imgur.com/qw0p6Cv.png)
+![screenshot](https://imgur.com/J7LLBex.png)
 
-Método organizado:
- Você cria um objeto (MOTD) e tem a permissão de setar as linhas
- tanto a linha 1 quanto a linha 2, o estado na criação.
+Métodos para criar linhas animadas:
 
-![Screenshot](https://imgur.com/HdQtSnX.png)
+Este é realmente opcional,
+é apenas uma dica melhorada.
 
-Método animado:
- Você atualmente só pode usar o método
- animado para criar animações do motd
- de forma simples, mas acho interessante.
+argumento 1: Lista em String da Linha 1.
+argumento 2: Lista em String da Linha 2.
 
- Um outro porém que talvez seja ruim:
- as linhas são independentes.
+![screenshot](https://imgur.com/KGwWcmk.png)
 
-Passo a Passo:
-- Defina duas listas em String
-- Inicie o objeto e sete as animatedLine.
+Como puxar um exemplo de MOTD:
 
-- Método Organizado
+Você deve criar uma classe e implementar
+ela em AbstractMOTD e com isso criar um evento
+com ServerPingListener e instanciar um novo
+objeto da sua classe de MOTD com implemento.
 
-![Screenshot](https://imgur.com/TFT4rGH.png)
+Bom, você pode usar o ExampleMOTD
+mas eu recomendo criarem um próprio.
 
-- Método Desorganizado:
-
-![Screenshot](https://imgur.com/0x1c4lM.png)
-
-Estados:
-- STATIC
-- UNCOLOR
-- ANIMATED.
+![screenshot](https://imgur.com/QegaN12.png)
